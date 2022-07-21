@@ -17,6 +17,9 @@
 ## X-Website: https://github.com/SFX-WoW/Masque_Fusion
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal, Caith
+## X-Curse-Project-ID: 648535
+## X-Wago-ID: RXKq75Ny
+## X-WoWI-ID: 26369
 
 # Locales
 Locales.lua
