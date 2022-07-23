@@ -30,8 +30,8 @@ Install the package through your preferred add-on manager or extract the archive
 
 ## [Credits][Top]
 
-- _Caith_ for the his UI.
-- _Zeal_ for the original **Vol** skin.
+- Caith for the their UI.
+- [Zeal](https://www.curseforge.com/members/zealvurte "Zeal @ CurseForge") for the original _Vol_ skin.
 
 ## [Feedback][Top]
 
