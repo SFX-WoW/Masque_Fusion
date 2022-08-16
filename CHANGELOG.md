@@ -1,7 +1,7 @@
-## 9.2.5
+## 9.2.7
 
 ### Release Notes
 
-- Initial release.
+- Updated the `Interface` version for _Retail_ to `90207`.
 
 [Release History](https://github.com/SFX-WoW/Masque_Fusion/wiki/History)
