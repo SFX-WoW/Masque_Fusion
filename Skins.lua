@@ -23,6 +23,7 @@ local AddOn, Core = ...
 
 -- Locale
 local L = Core.Locale
+local API_VERSION = 100000
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
@@ -38,7 +39,7 @@ local Websites = {
 ---
 
 MSQ:AddSkin("Fusion", {
-	API_VERSION = 100000,
+	API_VERSION = API_VERSION,
 	Shape = "Square",
 
 	-- Info
@@ -246,6 +247,21 @@ MSQ:AddSkin("Fusion", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
+	SlotHighlight = {
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		-- TexCoords = {0, 1, 0, 1},
+		Color = {0, 0.7, 0.9, 1.0},
+		BlendMode = "BLEND",
+		DrawLayer = "OVERLAY",
+		DrawLevel = 0,
+		Width = 42,
+		Height = 42,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
 	Name = {
 		JustifyH = "CENTER",
 		JustifyV = "MIDDLE",
@@ -303,21 +319,6 @@ MSQ:AddSkin("Fusion", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	SlotHighlight = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
-		-- TexCoords = {0, 1, 0, 1},
-		Color = {0, 0.7, 0.9, 1.0},
-		BlendMode = "BLEND",
-		DrawLayer = "OVERLAY",
-		DrawLevel = 0,
-		Width = 42,
-		Height = 42,
-		Point = "CENTER",
-		RelPoint = "CENTER",
-		OffsetX = 0,
-		OffsetY = 0,
-		-- SetAllPoints = nil,
-	},
 	Gloss = {
 		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Gloss]],
 		-- TexCoords = {0, 1, 0, 1},
@@ -335,6 +336,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	NewAction = {
 		-- Atlas = "bags-newitem",
+		-- UseAtlasSize = false,
 		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Glow]],
 		Color = {1, 1, 0.8, 1},
 		BlendMode = "BLEND",
@@ -350,6 +352,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	SpellHighlight = {
 		-- Atlas = "bags-newitem",
+		-- UseAtlasSize = false,
 		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Glow]],
 		Color = {1, 1, 0.8, 1},
 		BlendMode = "BLEND",
@@ -379,8 +382,8 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	IconOverlay = {
-		Atlas = "AzeriteIconFrame",
-		UseAtlasSize = false,
+		-- Atlas = "AzeriteIconFrame",
+		-- UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -395,7 +398,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	UpgradeIcon = {
 		Atlas = "bags-greenarrow",
-		UseAtlasSize = true,
+		UseAtlasSize = false, -- true
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -409,8 +412,8 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	IconOverlay2 = {
-		Atlas = "ConduitIconFrame-Corners",
-		UseAtlasSize = false,
+		-- Atlas = "ConduitIconFrame-Corners",
+		-- UseAtlasSize = false,
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -489,7 +492,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	JunkIcon = {
 		Atlas = "bags-junkcoin",
-		UseAtlasSize = false,
+		UseAtlasSize = false, -- true
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
