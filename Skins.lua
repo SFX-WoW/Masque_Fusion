@@ -10,19 +10,21 @@
 
 ]]
 
--- GLOBALS: GetAddOnMetadata, LibStub
-
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
 local AddOn, Core = ...
 
 ----------------------------------------
--- Locals
+-- Internal
 ---
 
--- Locale
 local L = Core.Locale
+
+----------------------------------------
+-- Local
+---
+
 local API_VERSION = 100000
 
 -- Skin Info
@@ -43,9 +45,9 @@ MSQ:AddSkin("Fusion", {
 	Shape = "Square",
 
 	-- Info
+	Author = "StormFX",
 	Description = L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."],
 	Version = Version,
-	Author = "StormFX",
 	Websites = Websites,
 
 	-- UI
@@ -532,6 +534,8 @@ MSQ:AddSkin("Fusion", {
 	},
 	Cooldown = {
 		-- Texture = nil,
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Color = {0, 0, 0, 0.7},
 		Width = 32,
 		Height = 32,
@@ -542,6 +546,8 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	ChargeCooldown = {
+		-- EdgeTexture = [[Interface\AddOns\Masque\Textures\Cooldown\Edge]],
+		-- PulseTexture = [[Interface\Cooldown\star4]],
 		Width = 32,
 		Height = 32,
 		-- Point = "CENTER",
@@ -557,14 +563,20 @@ MSQ:AddSkin("Fusion", {
 ---
 
 MSQ:AddSkin("Fusion - Inversion", {
+	-- API_VERSION = Template.API_VERSION,
+	-- Shape = Template.Shape,
 	Template = "Fusion",
 
 	-- Info
+	-- Author = Template.Author,
 	Description = L["An alternate version of Fusion with an inverted metallic effect."],
+	-- Version = Template.Version,
+	-- Websites = Template.Websites,
 
 	-- UI
-	Title = "Inversion",
+	-- Group = Template.Group,
 	Order = 2,
+	Title = "Inversion",
 
 	-- Skin
 	Normal = {
