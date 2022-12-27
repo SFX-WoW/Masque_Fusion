@@ -32,7 +32,7 @@ Install the package through your preferred add-on manager or extract the archive
 
 ## [Credits][Top]
 
-- [Caith](https://www.wowinterface.com/forums/member.php?userid=133201 "Caith @ WoW Interface") for the [their UI](https://www.wowinterface.com/forums/member.php?userid=133201 "Caith UI @ WoW Interface").
+- [Caith](https://www.wowinterface.com/forums/member.php?userid=133201 "Caith @ WoW Interface") for the [their UI](https://www.wowinterface.com/downloads/info11255 "Caith UI @ WoW Interface").
 - [Zeal](https://www.curseforge.com/members/zealvurte "Zeal @ CurseForge") for the original **Vol**skin.
 
 ## [Feedback][Top]
