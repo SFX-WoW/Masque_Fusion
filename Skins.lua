@@ -121,7 +121,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	SlotIcon = "Icon",
 	Shadow = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Shadow]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Shadow]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0, 0, 0.5},
 		BlendMode = "BLEND",
@@ -136,10 +136,10 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Frame]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Fusion\Textures\Frame]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		EmptyColor = {0.5, 0.5, 0.5, 0.5},
 		BlendMode = "BLEND",
@@ -224,7 +224,7 @@ MSQ:AddSkin("Fusion", {
 		OffsetY = -3,
 	},
 	Checked = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 0.7},
 		BlendMode = "BLEND",
@@ -239,7 +239,7 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	SlotHighlight = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {0, 0.7, 0.9, 1.0},
 		BlendMode = "BLEND",
@@ -266,7 +266,7 @@ MSQ:AddSkin("Fusion", {
 		OffsetY = 2,
 	},
 	Border = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "BLEND",
@@ -284,7 +284,7 @@ MSQ:AddSkin("Fusion", {
 	EnchantBorder = "Border",
 	IconBorder = "Border",
 	Gloss = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Gloss]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Gloss]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.5},
 		BlendMode = "BLEND",
@@ -301,7 +301,7 @@ MSQ:AddSkin("Fusion", {
 	NewAction = {
 		-- Atlas = "bags-newitem",
 		-- UseAtlasSize = false,
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Glow]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Glow]],
 		Color = {1, 1, 0.8, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -316,7 +316,7 @@ MSQ:AddSkin("Fusion", {
 	},
 	SpellHighlight = "NewAction",
 	AutoCastable = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Indicator]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Indicator]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 0, 1},
 		BlendMode = "BLEND",
@@ -376,8 +376,8 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	QuestBorder = {
-		Border = [[Interface\AddOns\Masque_Fusion\Textures\Quest]],
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		Border = [[Interface\AddOns\Masque_Fusion\Textures\Base\Quest]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Border]],
 		Color = {1, 0.8, 0, 1},
 		BlendMode = "BLEND",
 		DrawLayer = "OVERLAY",
@@ -393,7 +393,7 @@ MSQ:AddSkin("Fusion", {
 	NewItem = {
 		-- Atlas = "bags-glow-white",
 		-- UseAtlasSize = true,
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Glow]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Glow]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
 		BlendMode = "ADD",
@@ -440,7 +440,7 @@ MSQ:AddSkin("Fusion", {
 		-- SetAllPoints = nil,
 	},
 	Highlight = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Border]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Base\Border]],
 		-- TexCoords = {0, 1, 0, 1},
 		Color = {1, 1, 1, 0.3},
 		BlendMode = "ADD",
@@ -517,10 +517,10 @@ MSQ:AddSkin("Fusion - Inversion", {
 	-- SlotIcon = Template.SlotIcon,
 	-- Shadow = Template.Shadow,
 	Normal = {
-		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Frame-Inversion]],
+		Texture = [[Interface\AddOns\Masque_Fusion\Textures\Inversion\Normal]],
 		-- TexCoords = {0, 1, 0, 1},
 		-- Color = {1, 1, 1, 1},
-		-- EmptyTexture = [[Interface\AddOns\Masque_Fusion\Textures\Frame-Inversion]],
+		-- EmptyTexture = [[Interface\AddOns\Masque_Fusion\Textures\Inversion\Normal]],
 		-- EmptyCoords = {0, 1, 0, 1},
 		EmptyColor = {0.5, 0.5, 0.5, 0.5},
 		BlendMode = "BLEND",
