@@ -1,9 +1,11 @@
 ## Interface: 30401
 
 ## Author: StormFX
-## Dependencies: Masque
 ## Title: Masque: Fusion
 ## Version: @project-version@
+
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_Fusion\Textures\Icon
 
 ## Notes: Fusion skin for Masque.
 ## Notes-deDE: Fusion-Skin für Masque.
