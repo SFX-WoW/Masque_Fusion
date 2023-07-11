@@ -1,11 +1,8 @@
-## 10.1.0
+## 10.1.5
 
 ### Release Notes
 
-- Added an `IconTexture` for the **AddOns** menu. (#13)
-- Updated the `API_VERSION` to `100100`.
-- Updated the folder structure.
-- Updated the `Interface` version for **Retail** to `100100`. (#12)
-- Updated the `X-Discord` ToC entry.
+- Updated the `Interface` version for **Retail** to `100105`. (#15)
+- Updated the `Interface` version for **Wrath Classic** to `30402`. (#14)
 
 [Release History](https://github.com/SFX-WoW/Masque_Fusion/wiki/History)
