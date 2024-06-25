@@ -1,9 +1,9 @@
-## 10.2.7
+## 10.2.8
 
 ### Release Notes
 
-- Updated the `Interface` version for **Retail** to `100207`. (#27)
-- Updated the `Interface` version for **Vanilla** to `11502`. (#26)
-- Removed support for **Wrath Classic**. (#25)
+- Added support for custom spell alert animations. (#29)
+- Switched to a single ToC file. (#28)
+- Updated the `API_VERSION` to `100207`.
 
 [Release History](https://github.com/SFX-WoW/Masque_Fusion/wiki/History)
