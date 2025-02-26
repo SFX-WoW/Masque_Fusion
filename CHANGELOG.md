@@ -1,9 +1,9 @@
-## 11.0.2
+## 11.1.0
 
 ### Release Notes
 
-- Added support for **The War Within** `11.0.5`. (#36)
-- Added support for **Cataclysm Classic** `4.4.1`.. (#36)
-- Updated the `Interface` version for **Classic Era** to `11504`. (#36)
+- Updated the `Interface` version for **The War Within** to `110100`. (#37)
+- Updated the `Interface` version for **Cataclysm Classic** to `40402`. (#37)
+- Updated the `Interface` version for **Classic Era** to `11506`. (#37)
 
 [Release History](https://github.com/SFX-WoW/Masque_Fusion/wiki/History)
