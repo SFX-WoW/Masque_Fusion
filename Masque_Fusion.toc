@@ -4,6 +4,7 @@
 ## Title: Masque: Fusion
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Fusion\Textures\Icon
 
