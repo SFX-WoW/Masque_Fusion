@@ -46,5 +46,7 @@ elseif Locale == "ruRU" then
 	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "Слияние Caith и Entropy, в результате которого получился более крупный металлический каркас."
 	L["An alternate version of Fusion with an inverted metallic effect."] = "Альтернативная версия Fusion с инвертированным металлическим эффектом."
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
+elseif Locale == "zhTW" then
+	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "融合Caith以及Entropy，形成更大且金屬質感的框架。"
+	L["An alternate version of Fusion with an inverted metallic effect."] = "融合的另一種版本，帶有反向金屬效果。"
 end
