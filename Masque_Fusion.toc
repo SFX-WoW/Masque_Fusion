@@ -14,8 +14,9 @@
 ## Notes-esES: Skin Fusion para Masque.
 ## Notes-frFR: Skin de Fusion pour Masque.
 ## Notes-itIT: Skin Fusion per Masque.
-## Notes-ruRU: Скин Fusion для Masque.
-## Notes-zhTW: Masque的Fusion皮膚。
+## Notes-ptBR: Aparências Fusion para o Masque.
+## Notes-ruRU: Fusion скин для Masque.
+## Notes-zhTW: Masque的Fusion外觀。
 
 ## X-Category: Interface Enhancements
 ## X-Credits: Zeal, Caith
