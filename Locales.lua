@@ -32,23 +32,22 @@ Core.Locale = setmetatable(L, {
 -- Localization
 ---
 
-if Locale == "enGB" or Locale == "enUS" then
-	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "A fusion of Caith and Entropy, resulting in a larger, metallic frame."
-	L["An alternate version of Fusion with an inverted metallic effect."] = "An alternate version of Fusion with an inverted metallic effect."
-	return
---elseif Locale == "deDE" then
---elseif Locale == "esES" or Locale == "esMX" then
---elseif Locale == "frFR" then
---elseif Locale == "itIT" then
---elseif Locale == "koKR" then
+if Locale == "deDE" then
+--@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "esES" or Locale == "esMX" then
+--@localization(locale="esES", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "frFR" then
+--@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "itIT" then
+--@localization(locale="itIT", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "koKR" then
+--@localization(locale="koKR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ptBR" then
-	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "Uma fusão de Caith e Entropy, resultando em um quadro metálico maior."
-	L["An alternate version of Fusion with an inverted metallic effect."] = "Uma versão alternativa da Fusion com um efeito metálico invertido."
+--@localization(locale="ptBR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ruRU" then
-	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "Слияние Caith и Entropy, в результате которого получился более крупный металлический каркас."
-	L["An alternate version of Fusion with an inverted metallic effect."] = "Альтернативная версия Fusion с инвертированным металлическим эффектом."
---elseif Locale == "zhCN" then
+--@localization(locale="ruRU", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "zhCN" then
+--@localization(locale="zhCN", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "zhTW" then
-	L["A fusion of Caith and Entropy, resulting in a larger, metallic frame."] = "融合Caith以及Entropy，形成更大且金屬質感的框架。"
-	L["An alternate version of Fusion with an inverted metallic effect."] = "融合的另一種版本，帶有反向金屬效果。"
+--@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore")@
 end
